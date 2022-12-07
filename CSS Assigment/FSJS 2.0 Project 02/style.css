@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: #222222;
+  }
+  .container {
+    height: 100vh;
+    width: 100vw;
+    background: url("./assets/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  
+  }
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid red; */
+    background-color: #070707;
+    color: rgb(255, 255, 255);
+    height: 70px;
+  }
+  
+  .navbar .grow-list .list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* border:1px solid white; */
+    list-style-type: none;
+    width: 500px;
+    align-items: center;
+    position: relative;
+    right: 550px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    gap: 65px;
+  }
+  
+  
+  .navbar .grow-list .list > :first-child::after {
+    content: "ˇ";
+    position: absolute;
+    /* left: 35px; */
+    top:1px;
+    font-size:1.9rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+  }
+  
+  .navbar .line {
+    height: 42px;
+    width: 20px;
+    border-left: 1px solid rgb(250, 240, 240);
+    position: relative;
+    right: 290px;
+  }
+  
+  .navbar div .logo {
+    height: 28px;
+    width: 106px;
+    position: relative;
+    left: 70px;
+    align-items: center;
+  }
+  
+  .container .navbar div .button-small{
+  background-color: #ba0cc5;
+  position:relative;
+  right:70px;
+  border:none;
+  height:40px;
+  width:150px;
+  right: 200px;
+  border-radius:7px;
+  color:#fdf9f9;
+  font-family: 'Montserrat';
+  font-style: normal;
+  }
+  
+  section  .hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height:300px;
+    width:700px;
+    margin : 75px auto;
+  }
+  .hero .hero-heading{
+    color:#fdf9f9;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 4.0rem;
+  text-align:center;
+  word-spacing: 8px;
+  }
+  .hero .hero-description{
+  text-align: center;
+  color:#fdf9f9;
+  font-family: 'Montserrat';
+  font-style: normal;
+  margin:10px 0px;
+  font-size: 1.6rem;
+  }
+  .hero .button-large{
+    background-color: #ba0cc5;
+    border:none;
+    height:50px;
+    width:250px;
+    border-radius:7px;
+    color:#fdf9f9;
+    font-family: 'Montserrat';
+    font-style: normal;
+    padding:5px 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top:40px;
+    
+  }
+
+
+
+
+
+/* *{
+    margin:0;
+padding: 0;
+    font-family: 'Montserrat';
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.navbar{
+width: 100vw;
+height: 15vh;
+border: 2px solid black;
+display: flex;
+background-color: black;
+color: #ffffff;
+
+justify-content: space-around;
+align-items: center;
+} */
+
+/* .list{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    border: 1px solid white;
+    width: 950px;
+    position: relative;
+    right: 300px;
+    font-size: 2rem;
+}
+.hero{
+    background-image: url("./assets/bg.png");
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.list > :first-child::after{
+    content: "\030C";
+    position: absolute;
+font-size: 5rem;
+    left: 98px;
+    top: 0px;
+} */
+
+
+/* .navbar> div > img {
+    width: 200px;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+.list {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start; 
+    gap: 50px;  
+    font-size: 30px;
+}
+.container{
+background-image: url("./assets/bg.png");
+background-size: 100% 100%;
+height: 100vh;
+width: 100vh;
+background-repeat: no-repeat;
+}
+
+ */
+
+
+
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
