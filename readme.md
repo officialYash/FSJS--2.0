@@ -9,3 +9,4 @@
 2. [Media Query]()
 3. [CSS Position Properties]()
 4. [CSS Grid Model]()
+5. [Array & Array Method](https://yashgabru.hashnode.dev/array-method-in-javascript-an-introduction-for-beginners) 
