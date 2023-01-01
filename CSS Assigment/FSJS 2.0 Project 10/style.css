@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+      /* border: 1px solid red; */
 }
 
 /* ******************     Css Custom Variables      ********************************* */
@@ -132,7 +133,7 @@ main{
 
 .navbar{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     /* border: 2px solid darkgreen; */
     align-items: center;
     gap: 3em;
@@ -143,17 +144,38 @@ main{
 
 .navbar-icons{
     position: relative;
-}
+    display: none;
 
-#hamburger-btn, #cross-btn{
-    color: var(--color-white-001);
+}
+.hamburger{
     cursor: pointer;
-    font-size: 1.6rem;
+    height: 5px;
+    width: 40px;
+    margin: 0.5em 0;
+    background-color: var(--color-white-001);
     position: absolute;
     display: none;
     transition: all 0.3s ease-in-out;
 }
+.cross{
+    height: 5px;
+    width: 35px;
+    position: absolute;
+    background-color: var(--color-white-001);
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+  
+}
+.cross-2{
+    display: none;
+}
 
+.cross-1 {
+    transform: rotate(45deg);
+  }
+  .cross-3 {
+    transform: rotate(-45deg);
+  }
 .navbar >.list-items-container{
     align-self: flex-end;
 }
@@ -175,6 +197,33 @@ main{
     padding: 8em 4em;
 }
 
+/********************logo-container********************/
+.logo-container {
+    margin-top: 3em;
+    width: 88%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 3em 1.5em;
+    background-color: var(--color-white-001);
+    border-radius: 30px;
+    position: absolute;
+    bottom: -5%;
+    left: 0;
+    right:0;
+    margin: auto;
+  }
+  .logo-container > img {
+    width: 10%;
+  
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+  }
+  .logo-container > img:hover {
+    scale: 1.2;
+  }
+  
 /* ...................... Media Queries.................................... */
 
 @media screen and ( max-width:900px){
@@ -183,7 +232,7 @@ main{
     }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 800px) {
     .main{
         padding: 1em;
     }
@@ -224,17 +273,21 @@ main{
         /* border: 3px solid white; */
         flex-direction: column;
         width: 100%;
-        position: absolute;
+        /* position: absolute; */
         top:100%;
         left:-110%;
+        position: absolute;
+        transition: all 0.5s ease-in-out;
     }
-    #hamburger-btn{
-        display: inline;
-        z-index: 1;
-    }
-    #cross-btn{
-        z-index: 1;
-    }
+   .nav-icons{
+    display: block;
+    align-self: flex-start;
+    justify-self:top;
+    position: relative;
+   }
+   .hamburger{
+    display: block;
+   }
 }
 
 @media screen and (max-width: 400px) {
