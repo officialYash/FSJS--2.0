@@ -1,0 +1,130 @@
+/* ********************     CSS RESET Property    ************************ */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ******************     Css Custom Variables      ********************************* */
+:root {
+    --color-blue-001: #6663e9;
+    --color-blue-002: #7d7bec;
+    --color-blue-003: #6663e8;
+    --color-grey-001: #a9aeb6;
+    --color-black-001: #181717;
+    --color-black-002: #27292e;
+    --color-black-003: #717377;
+    --color-black-004: #18171796;
+    --color-white-001: #ffffff;
+    --color-white-002: #cacaca;
+  }
+
+/* ******************************          ***************************************************** */
+html{
+    font-size: 16px;
+    color: var(--color-black-001);
+}
+
+
+/* .......................... Utility Classes ..............................................  */
+.logo{
+    width: 12%;
+    min-width: 100px;
+}
+
+.list-items-container{
+    border: 3px solid darkmagenta;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 2em;
+    flex-wrap: wrap;
+
+}
+
+.list-items > a{
+    text-decoration: none;
+    color: var(--color-grey-001);
+    transition: all 0.2s ease-in-out;
+}
+
+.list-items > a ::after{
+    content: "";
+    display: block;
+    border-bottom: 2px solid var(--color-white-001);
+    transform: scaleX(0);
+    padding-bottom: 0.3em;
+    transition: all 0.2s ease-in-out;
+}
+
+.list-items > a:hover{
+    color: var(--color-white-001);
+}
+
+.list-items >a:hover::after{
+    transform: scaleX(1);
+}
+
+.btn-large{
+   border: 2px solid darkgoldenrod;
+    all: unset;
+    cursor: pointer;
+    font-family: "Manrope" ,sans-serif;
+    background-color: var(--color-blue-001);
+    color: var(--color-white-001);
+    font-size: 1rem;
+    padding: 1.1em 2.8em;
+    border-radius: 46px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.btn-large:hover{
+    background-color: var(--color-white-001);
+    color: var(--color-blue-001);
+}
+
+.heading-primary{
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--color-white-001)
+}
+
+.heading-secondary{
+
+
+}
+
+.para{
+    font-family: sans-serif;
+    color: var(--color-white-002);
+    font-size: 1.2rem;
+}
+
+.para >p{
+    padding: 0.2em 0;
+}
+
+body{
+    width: 100vw;
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    border: 3px solid darkcyan;
+}
+
+/* ................................. Main .................................. */
+
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 1em 4em;
+    background-image: url("./Photos/mainBackground.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: var(--color-black-004);
+    background-blend-mode: darken;
+}
