@@ -9,3 +9,6 @@
 6. [CSS Project-6 XYZ Advocates | Truth Prevails](https://yash-xyz-advocates.netlify.app/)
 7. [CSS Project-7 Credit Card Landing Page](https://creditcard-landing-page.netlify.app/)
 8. [CSS Project-8 Web Hosting Site Landing Page](https://hosting-site-landing-app.netlify.app/)
+9. [CSS Project-9 Game Website Landing Page](https://yash-game-website-landing-page.netlify.app/)
+10. [CSS Project-10 Real Estate Site | Landing Page ](https://yash-real-estate-site-landing-page.netlify.app/)
+
