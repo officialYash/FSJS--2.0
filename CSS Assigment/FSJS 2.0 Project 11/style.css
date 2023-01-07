@@ -3,7 +3,7 @@
     /* border: 2px solid darkgoldenrod; */
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     
 }
     /*..........................Declaring CSS Variables.........................*/
@@ -22,7 +22,29 @@
         width: 25%;
   }
 
-.btn_primary {
+.heading_primary{
+font-size: 2rem;
+}
+
+.heading_secondary {
+  font-size: 1rem;
+}
+.para{
+  font-size: 0.9rem;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: #888888;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8em;
+}
+.icons {
+  width: 18px;
+}
+
+
+
+  .btn_primary {
 all: unset;
 padding: 1em 3.2em;
 background-color: var(--color-black-002);
@@ -31,15 +53,18 @@ border-radius: 7px;
 font-family: sans-serif;
 }
 
+
 body{
-  border: 2px solid darkcyan;
-    width: 100vw;
-    max-width: 1440px;
-    margin: 0 auto;
-    border: 2px solid darkblue;
-    font-family: "Manrope", sans-serif;
-    background-color: var(--color-black-001);
+  /* border: 2px solid darkcyan; */
+  width: 100vw;
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: "Manrope", sans-serif;
+  color: var(--color-white-001);
+  overflow-x: hidden;
+
 }
+/* ........................... Container ........................... */
 .container{
   background-color: var(--color-black-001);
   display: flex;
@@ -48,6 +73,7 @@ body{
   height: 100vh;
 }
 
+/*************************************Header*********************************************/
 
   header{
     display: flex;
@@ -57,6 +83,8 @@ body{
     flex-wrap: wrap;
     gap: 5em;
 }
+
+/***Hamburger_icon***/
 
 .hamburger_icon{
 all: unset;
@@ -113,6 +141,8 @@ transform: rotate(45deg);
   .nav_open > .hamburger::after {
     transform: rotate(90deg) translateX(-8px);
   }
+
+  /*Navbar*/
 
   nav{
     display: flex;
