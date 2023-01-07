@@ -70,7 +70,8 @@ body{
   display: flex;
   flex-direction: column;
   position: relative;
-  height: 100vh;
+  overflow-x: hidden;
+
 }
 
 /*************************************Header*********************************************/
@@ -181,7 +182,7 @@ display: flex;
 flex-direction: column;
 align-items: flex-start;
 gap: 1.8em;
-
+overflow-x: hidden;
 }
 
 .on_ear_logo {
@@ -240,6 +241,40 @@ text-align: center;
   width: 80%;
   min-width: 70px;
 }
+
+/***********************************Clients*************************************/
+.slider{
+border: 2px solid saddlebrown;
+  padding: 4em 0;
+
+}
+
+.clients{
+  padding: 4em 0;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 25%;
+animation: scroll 20s linear infinite;
+width: 100%;
+}
+
+.clients > * {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes scroll {
+  0%{
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+
+}
 /***********************************Media Queries*********************************/
 @media screen and (max-width: 1150px) {
   .hero {
@@ -273,6 +308,25 @@ text-align: center;
   .hero_text > .para {
     font-size: 0.6rem;
   }
+
+  .clients{
+    all: unset; 
+   border: 2px solid red;
+   padding: 1em 0;
+   gap: 3rem;
+   display: grid;
+   grid-auto-flow: column;
+   grid-auto-columns: 50%;
+   overflow-x: auto;
+   overscroll-behavior-inline: contain;
+   align-items: center;
+
+  }
+
+  .clients > .client_img {
+    padding: 1em;
+  }
+
 }
 
 
