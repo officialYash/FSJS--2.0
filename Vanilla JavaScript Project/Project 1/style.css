@@ -1,13 +1,12 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body{
+  }
+  body {
     width: 100vw;
     height: 100vh;
-    /* border: 2px solid salmon; */
+    /* border: 2px solid red; */
     background-color: black;
     position: relative;
     display: flex;
@@ -15,13 +14,13 @@ body{
     align-items: flex-end;
     cursor: pointer;
     overflow: hidden;
-}
-
-.circle{
+    
+  }
+  .circle {
     height: 80px;
     width: 80px;
     border: 1px solid white;
-    background-color: #fff;
+    background-color: white;
     border-radius: 50%;
     position: absolute;
     left: 0;
@@ -30,13 +29,13 @@ body{
     bottom: 0;
     transition: all 350ms ease-in-out;
     color: black;
+    font-size: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
-
-}
-
-.btn{
+  }
+  
+  .btn {
     all: unset;
     cursor: pointer;
     height: 20px;
@@ -50,8 +49,8 @@ body{
     align-items: center;
     margin-bottom: 20px;
     transition: all 350ms ease-in-out;
-}
-
-.btn:hover{
+  }
+  
+  .btn:hover {
     scale: 0.9;
-}
+  }
