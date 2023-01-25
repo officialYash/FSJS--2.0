@@ -50,3 +50,8 @@ border-radius: 5px;
 background-color: rgba(15, 11, 11, 0.281);
 opacity: 0.5;  
 }
+
+.btn:active{
+    scale: 0.9;
+  }
+  
