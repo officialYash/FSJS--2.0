@@ -1,0 +1,17 @@
+*,
+*::before,
+*::after{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+}
+
+.carosuel{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
