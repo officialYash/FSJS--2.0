@@ -32,6 +32,11 @@
             case "april":
                 case "may":
                     alert(`Season is Spring 🌸💐. `);
-                        break;            
+                        break;     
+                        
+        default:
+            alert("Please check spelling of month you entered!")
+                break;
+                                    
 
                 }
