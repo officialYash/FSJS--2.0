@@ -14,3 +14,4 @@ console.log(getDayinMonths(2021, 10))
 
 //Find total days in February month in a non leap year
 console.log(getDayinMonths(2022, 2))
+
