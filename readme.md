@@ -4,6 +4,10 @@
 ### Tailwind Project Link
 [VS Code Clone](https://vs-clone-yash.netlify.app/)
 
+### JavaScript Assignment Questions-Answers
+
+[JavaScript Assignment Questions-Answers](https://github.com/officialYash/FSJS--2.0/tree/main/JavaScript%20Assigment)
+
 ### Assignments (Blogs & Articles) Link
 1. [CSS FlexBox]()
 2. [Media Query]()
