@@ -1,0 +1,12 @@
+const btn = document.getElementsByClassName('btn')[0];
+const btnsubscription=btn.cloneNode(true);
+btnsubscription.innerText="Pro Subscripton";
+btn.insertAdjacentElement('afterend' , btnsubscription);
+const  bevarages = document.querySelectorAll('.tags-container  div > a')[5];
+const chinese =bevarages.cloneNode(true);
+chinese.innerText ="Chinese(7)";
+bevarages.insertAdjacentElement('afterend' ,chinese);
+const card5 =document.getElementsByClassName("card")[4];
+const card6 = card5.cloneNode(true);
+card6.innerHTML = "<h1> Add 6th card her </h1>";
+card5.insertAdjacentElement("afterend", card6);
