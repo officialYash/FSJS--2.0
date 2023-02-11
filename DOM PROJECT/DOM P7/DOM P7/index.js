@@ -38,7 +38,7 @@ function addText() {
     namesValue.forEach(text => {
         const aTagNew = aTag.cloneNode(true);
         aTagNew.innerText = text;
-        language.appendChild(aTagNew)
+        language.appendChild(aTagNew);
     })
 }
 
