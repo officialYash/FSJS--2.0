@@ -6,6 +6,8 @@ const hire = document.createElement("li");
 hire.innerText ="Hire me";
 ul.appendChild(hire);
 
+
+
 //Hiding Social Media Icons
 
 const socialMediaIcons = document.getElementsByTagName("ul")[1];
@@ -35,4 +37,6 @@ profileImage.src = "https://hiteshchoudhary.com/static/a8d73d1aac4c79e9bb689640e
 const btnContainer = document.querySelector('.hero-right-section-btns');
 const btnSupport = document.createElement("button");
 btnSupport.innerText = "Support Me";
+
+
 btnContainer.appendChild(btnSupport);
