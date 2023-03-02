@@ -75,3 +75,8 @@ gap: 0.3em;
     gap: 1em;
     width: 100%;
   }
+
+  .displayError{
+    color: #cc3737;
+    font-size: 1.9rem;
+  }
