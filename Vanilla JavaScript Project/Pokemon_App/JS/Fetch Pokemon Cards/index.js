@@ -55,8 +55,9 @@ import { fetchingStarts, fetchingEnds } from "../During Fetching/index.js";
 //     });
 // }
 function showPokemon(offset = 0){
-    containerPokeCard.innerHTML = "";
     fetchingStarts();
+    containerPokeCard.innerHTML = "";
+
     const request = fetch(   
          `https://pokeapi.co/api/v2/pokemon?limit=21&offset=${offset}`
     );
@@ -100,7 +101,7 @@ function showPokemon(offset = 0){
 })
 .finally(() => {
   fetchingEnds();
-  
+
 });
 }
 
