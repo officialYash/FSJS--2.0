@@ -38,4 +38,12 @@
 <br>
 <br>
 
+
 ![image](./img-2.png)
+<br>
+<br>
+<hr>
+
+
+## What is Emmet?
+### Emmet is a plug in for many popular text editors which greatly improves HTML & CSS workflow. you can use short expressions to generate HTML markup, CSS. You can use ctrl + space to see the workflow of the code that will be generated(Inside a pop up)
