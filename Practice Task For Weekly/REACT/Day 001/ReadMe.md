@@ -46,4 +46,12 @@
 
 
 ## What is Emmet?
-### Emmet is a plug in for many popular text editors which greatly improves HTML & CSS workflow. you can use short expressions to generate HTML markup, CSS. You can use ctrl + space to see the workflow of the code that will be generated(Inside a pop up)
+
+### Emmet is a plug in for many popular text editors which greatly improves HTML & CSS workflow. you can use short expressions to generate HTML, Markup, CSS. You can use ctrl + space to see the workflow of the code that will be generated(Inside a pop up)
+
+<br>
+<br>
+<hr>
+
+## Why React is known as "React"?
+## React is a Front-End JavaScript library. React is eveloped by Facebook Engineers. React is based on the concept of reusable components i.e. whenever I am performing any action suppose I am clicking on button then not the entire web page should reload but only that data which is needed should change and other component remains the same. This provides a fast, smooth and responsive user experience. It is meant to help developers build user interfaces that are fast and responsive, or “reactive.” The library was designed to “react” to changes in data.
