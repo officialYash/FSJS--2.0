@@ -54,4 +54,17 @@
 <hr>
 
 ## Why React is known as "React"?
+
 ## React is a Front-End JavaScript library. React is eveloped by Facebook Engineers. React is based on the concept of reusable components i.e. whenever I am performing any action suppose I am clicking on button then not the entire web page should reload but only that data which is needed should change and other component remains the same. This provides a fast, smooth and responsive user experience. It is meant to help developers build user interfaces that are fast and responsive, or “reactive.” The library was designed to “react” to changes in data.
+
+<br>
+<br>
+<hr>
+
+## What is diference between React and ReactDOM?
+### When we build our React application we import two libraries one is React and other is ReactDOM. React is the core library. It caontains APIs like `React.createElement()`, `React.component` & `React.children`. Which means that this core library React helps us to build React components. On the other ReactDOM is the web browser specific library of React. ReactDOM is a binding link between React and DOM. Normally we use ReactDOM to render our React component into Web Page using `React.renderElement()`.
+
+<br>
+<br>
+
+### The reason why React and ReactDOM is seperated into two CDN links because React is not only limited to Web Browsers. There is something called React Native which is a React framework for building Mobile applications. There is also React 3D and they are depended on the core library React. That's why we have React & ReactDOM seperate CDN links.
