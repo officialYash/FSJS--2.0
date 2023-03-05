@@ -77,14 +77,18 @@
 
 ## What is difference between react.development.js and react.production.js files via CDN?
 ### react.development.js
-`<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>`
+```javascript
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+```
 
 ### These are called developemnet files of React & ReactDOM. These are files designed for actual developement, in which we have organised code with indentation, comments & easily readable format & variable & functions name. These files are developed only for development purpose. Due to these comments & indentation, The size of these files grow and there is no point in hosting these files in our web server. Because since their size is more they will eventually effect the load time & bandwidth of our server.
 
  ### react.production.js
 ### So once we want to deploye our appllication. We have production files of React that must be used.
-`<script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
-<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>`
+```javascript
+<script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+```
 
 ### In these files we have compressed, minfied and optimized code which have removed comments and extra speces. So size of the files reduces.
