@@ -120,4 +120,4 @@ When a Web Browser starts to load a Web Page, it will first start to Parse the H
 <br>
 <br>
 
-![normal]()
+![normal](https://github.com/officialYash/FSJS--2.0/blob/main/Practice%20Task%20For%20Weekly/REACT/Day%20001/normal.png?raw=true)
