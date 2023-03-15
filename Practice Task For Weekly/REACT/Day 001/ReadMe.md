@@ -121,3 +121,14 @@ When a Web Browser starts to load a Web Page, it will first start to Parse the H
 <br>
 
 ![normal](https://github.com/officialYash/FSJS--2.0/blob/main/Practice%20Task%20For%20Weekly/REACT/Day%20001/normal.png?raw=true)
+
+
+<br>
+
+### **Using async attribute**
+When we use an async attribute in Script Tag and Web Browser starts to load the web page, first it will start to Parse the HTML and when it encounters a Script Tag (which has an async attribute) then Fetching of this script starts asynchronously i.e. HTML Parsing and Script Fetching happens simultaneously but once Fetching of the script is completed then it will starts to execute the script and during script execution, the HTML Parsing is blocked and once execution of this script is finished then again Parsing of HTML starts. So by using the async attribute blocking of HTML Parsing happens only while script execution.
+<br>
+<br>
+
+
+![async](https://user-images.githubusercontent.com/116723941/223949707-ca33d891-920b-429b-9d87-b48c734a9fd0.png)
