@@ -131,4 +131,17 @@ When we use an async attribute in Script Tag and Web Browser starts to load the 
 <br>
 
 
-![async](https://user-images.githubusercontent.com/116723941/223949707-ca33d891-920b-429b-9d87-b48c734a9fd0.png)
+![async](https://github.com/officialYash/FSJS--2.0/blob/main/Practice%20Task%20For%20Weekly/REACT/Day%20001/async.png?raw=true)
+
+<br>
+
+### **Using defer attribute**
+When we use the defer attribute in Script Tag and Web Browser starts to load the web page, first, it will start to Parse the HTML and when it encounters a Script Tag (which has a defer attribute) then Fetching of this script starts asynchronously i.e. HTML Parsing and Script Fetching happens simultaneously but Execution of this script will only happen once HTML Parsing is finished. So no HTML Parsing is not blocked.
+
+<br>
+
+![defer](https://github.com/officialYash/FSJS--2.0/blob/main/Practice%20Task%20For%20Weekly/REACT/Day%20001/defer.png?raw=true)
+
+
+### **When to use async & defer**
+When we have multiple script tags and they are dependent on each other than using an async attribute in the script tag will not guarantee the execution of scripts in a particular order. So in such cases, we need to use defer attribute in our script tags. But if we have to load some script that is independent of our code such as any analytical script then we can go for async.
