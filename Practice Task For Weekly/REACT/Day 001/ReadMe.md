@@ -115,3 +115,9 @@ When a web page is being loaded two operations take place
 <br>
 <br>
 
+### **Normal Script Tag**
+When a Web Browser starts to load a Web Page, it will first start to Parse the HTML but once it encounters a script tag the Parsing of HTML stops and the Fetching of Scripts starts, once Fetching is done the Execution of these Scripts will take place and when both Fetching & Execution of scripts finished then only remaining HTML Parsing will again start. So normal script tags stop parsing of HTML until scripts are not fetched and executed.
+<br>
+<br>
+
+![normal]()
