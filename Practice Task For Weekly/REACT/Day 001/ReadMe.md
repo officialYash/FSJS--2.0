@@ -92,3 +92,26 @@
 ```
 
 ### In these files we have compressed, minfied and optimized code which have removed comments and extra speces. So size of the files reduces.
+
+<br>
+<br>
+<hr>
+
+## What is the difference between async & defer attribute that we use in script tag?
+
+We have three ways by which we can fetch and execute scripts on our web page.
+
+1. Normal Script Tag
+
+2. Script Tag with the async attribute
+
+3. Script Tag with defer attribute
+
+When a web page is being loaded two operations take place
+
+1. HTML Parsing
+
+2. Fetching & Execution of Scripts
+<br>
+<br>
+
