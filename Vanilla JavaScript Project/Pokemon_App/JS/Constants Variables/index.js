@@ -9,6 +9,8 @@ const nextBtn = document.getElementById("next");
 const loader = document.getElementsByClassName("lds-roller")[0];
 const pagination = document.getElementsById("pagination");
 const footer = document.getElementsByTagName("footer")[0];
+const backBtn = document.getElementById('back');
+const evolutionHeading = document.getElementById('pokemonChain')
 
 export{
     offset,
@@ -19,4 +21,6 @@ export{
   loader,
   pagination,
   footer,
+  backBtn,
+  evolutionHeading,
 };
