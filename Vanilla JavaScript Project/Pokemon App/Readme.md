@@ -1,2 +1,2 @@
 ## Live Link
-[Pokemon App](https://savinder-pokemon-app.netlify.app/)
+[Pokemon App](https://yash-pokemon-app.netlify.app/)
