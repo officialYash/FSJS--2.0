@@ -135,6 +135,10 @@
   opacity: 0.9;
 }
 
-#pagination > .inactive{
-    background-color: #757575;
+#pagination > .inactive {
+  background-color: #757575;
 }  
+
+.buttonPagination:active {
+  scale: 0.9;
+}

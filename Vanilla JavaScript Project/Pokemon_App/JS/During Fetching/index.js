@@ -19,6 +19,6 @@ import {
     footer.style.display = "flex";
   }
   
-  export{fetchingEnds,fetchingStarts}
+  export { fetchingStarts, fetchingEnds };
   
   
